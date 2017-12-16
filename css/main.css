@@ -1,0 +1,338 @@
+*{
+	margin: 0;padding: 0;
+}
+html{
+	width: 100%;height: 100%;font-size: 62.5%;
+}
+body{
+	width: 100%;height: 100%;
+	/*font-family: STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑";*/
+}
+.clear{
+	clear: both;
+}
+
+
+
+header{
+	height: 8rem;line-height: 8rem;background-color: rgba(67,67,67,0);position: fixed;top: 0;width: 100%;
+	z-index: 999;
+}
+.header-left,.header-right{
+	float:left;height: 100%;width:50%;position: relative;
+}
+.header-left{
+	background-image:  url(../img/logo-white.png);
+	background-repeat: no-repeat;
+	background-position: 40%;
+	background-size: 12rem;
+
+}
+
+.nav,.addus{
+	width: 14%;float: left;color: #ffffff;font-size: 1.3rem;cursor: pointer;text-align: center;margin-left: 1%;
+}
+.addus{
+	height: 3rem;line-height: 3rem;background-color: #03A9F4;margin-top: 2.5rem;border-radius: 5px;width: 15%;
+}
+.addus:hover{
+	background-color: #0095D8
+}
+.nav{
+	height: 100%;
+}
+.nav:hover{
+	color: #D4D4D4;
+	background-image:  url(../img/sanjiao.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 2rem;
+	-webkit-background-size:2rem ;
+	-moz-background-size:2rem ;
+}
+
+
+.main{
+	height: 100%;position: relative;
+}
+.lazyload{
+	position: absolute;width: 100%;height: 100%;background-image: url(../img/team.jpg);background-repeat: no-repeat;background-position: center;background-size: cover;
+
+}
+
+/*
+ * 首页
+ */
+.section1{
+	height: 100%;width: 100%;position: relative;
+}
+.section1-center{
+	position: absolute;top: 50%;
+	transform:translateY(-50%);
+	-webkit-transform:translateY(-50%) ;
+	-moz-transform:translateY(-50%) ;
+	text-align: center;width: 100%;font-size:6.5rem;color: #FFFFFF;
+}
+.go{
+	font-size: 2rem;width: 8rem ;background-color: #03A9F4;color: #FFFFFF;display: inline-block;border-radius: 4rem;padding: 1.2rem 2rem;margin-top: 5rem;
+}
+.go:hover{
+	background-color: rgba(3,169,244,0.8);cursor: pointer;
+}
+.section2{
+	padding: 8rem 0;background-color: #F9FAFB;color: #606676;
+}
+.department-parts{
+	width: 20%;margin-left:3%;display: inline-block;text-align: center;border: 3px solid #E1E8EE;border-radius: 5px;background-color:#FFFFFF;
+
+	background-image:  url(../img/table-icon.png);
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: 18rem;
+	-webkit-background-size:18rem ;
+	-moz-background-size:18rem;
+}
+.department{
+	width: 60%;margin-left: 20%;margin-top: 5rem;
+}
+.section2-title{
+	font-size:3rem;text-align: center;padding-bottom: 3rem;
+}
+.department-parts-container{
+	width: 80%;padding-left: 20%;text-align: left;
+}
+.department-parts-container-title{
+	color: #03A9F4;padding: 4rem 0;font-size: 1.6rem;
+}
+.department-parts-container-p{
+	padding-bottom: 3rem;font-size: 1.4rem;color: #86939e;
+}
+.section3{
+	padding: 5rem 0 3rem 0;color: #606676;
+}
+.department-jobs-container{
+	width: 33.3%;text-align: center;color:#86939E;float: left;padding-bottom: 5rem;
+}
+
+.job-img{
+	width:40%;
+}
+.jobname{
+	font-size: 1.8rem;padding:1.5rem 0;color: #606676;
+}
+.jobname:hover{
+	color: #03a9f4;
+}
+.salary{
+	padding: 1rem 0 1.5rem 0;font-size: 1.5rem;
+}
+.request{
+	font-size: 1.5rem;padding: 3px 0;
+}
+
+
+
+.cut1{
+	border-top: 100px solid #fff;border-right: 0 solid transparent;
+}
+.cut2{
+	border-bottom: 100px solid #fff;border-left: 0 solid transparent;
+}
+.section4-part-main{
+	width: 100%;padding: 50px 0;
+}
+.section4{
+	background: #0095D8;
+	background:-moz-linear-gradient(left,#0095D8,#1AE0DA);     /*Mozilla*/
+	background:-webkit-gradient(linear,0 50%,100% 50%,from(#0095D8),to(#1AE0DA));  /*Old gradient for webkit*/
+	background:-webkit-linear-gradient(left,#0095D8,#1AE0DA); /*new gradient for Webkit*/
+	background:-o-linear-gradient(left,#0095D8,#1AE0DA);  /*Opera11*/
+	background:filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#0095D8, endColorstr=#1AE0DA);/*IE<9>*/
+	background:-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#0095D8, endColorstr=#1AE0DA)";/*IE8+*/
+}
+
+
+.section4-container-left,.section4-container-right{
+	display: inline-block;vertical-align: middle;color: #FFFFFF;
+}
+
+.section4-container{
+	padding-left: 20%;width: 80%;margin-bottom: 5rem;
+}
+.section4-icons{
+	height: 5rem;vertical-align: middle;margin-right: 3rem;
+}
+.section4-desc{
+	font-size: 2rem;height: 4rem;line-height: 4rem;
+}
+.section4-desc2{
+	font-size: 1.5rem;height: 2rem;line-height: 2rem;
+}
+
+
+
+
+
+
+.swiper-container {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets{
+	bottom: 0;	
+}
+.img-circle{
+	width: 70%;
+}
+
+.section5{
+	padding: 5rem 0;position: relative;
+}
+.paper-block{
+	border: 3px solid #f5f8fa;padding: 3rem 0;color: #606676;border-radius: 5px;width: 90%;
+}
+.paper-block h3{
+	font-size: 3rem;font-weight: 500;padding: 1rem 0;
+}
+.paper-block p{
+	font-size: 1.5rem;font-weight: 500;padding: 1rem 0 2rem 0;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}
+
+.section6-part{
+	width: 33.3%;display: inline-block;font-size: 1.5rem;height: 12rem;vertical-align: middle;line-height:12rem;
+}
+.section6-part p{
+	overflow: hidden;text-overflow: ellipsis;white-space: nowrap;height:4rem;line-height:4rem;color: #86939e;
+}
+.footer-logo{
+	height: 2.5rem;
+}
+.container{
+	width: 80%;margin-left: 10%;padding: 3rem 0;font-size: 0;border-bottom: 1px solid gainsboro;
+}
+.footer-logo{
+	vertical-align: middle;
+}
+.copyright{
+	font-size:1.5rem;color: #86939e;text-align: center;height: 2.5rem;line-height:2.5rem;
+}
+.problem{
+	display: none;padding: 0 1.5rem;
+}
+.problem-show{
+	display: inline-block;
+}
+.problems{
+	display: inline-block;
+}
+.problem1{
+	background-color: #ED5564
+}
+.problem2{
+	background-color: #FCCE54
+}
+.problem3{
+	background-color: #45CFC0
+}
+.problem4{
+	background-color: #488EED
+}
+
+.header-right2{
+	display: none;background-image: url(../img/all.png);height: 8rem;
+	background-repeat: no-repeat;background-position: 80%;background-size: 3rem;
+}
+.navs{
+	position: absolute;right: 20%;top: 8.5rem;background-color: #FFFFFF;width: 80%;display: none;
+}
+.navs-section{
+	height: 5rem;line-height: 5rem;width: 90%;padding-left: 10%;border-bottom: 1px solid gainsboro;color: gray;font-size: 1.5rem;
+}
+.navs-section2{
+	background-color: #03A9F4;color: #FFFFFF;
+}
+
+
+.icon img{
+	height: 2rem;
+}
+
+
+.swiper-button-next{
+	right:1rem
+}
+.swiper-button-prev{
+	left: 1rem;
+}
+
+
+.footer-container-main{
+	border-bottom: 1px dashed gainsboro;padding: 3rem 0 1rem 0;
+}
+
+.footer-main{
+	width: 80%;margin-left: 10%;
+}
+.footer-container-left{
+	width: 40%;float: left;background-color: #FFFFFF;border-radius: 5px;border: 3px solid #E1E8EE
+}
+.footer-container-right{
+	width: 40%;float: right;text-align: right;background-color: #FFFFFF;border-radius: 5px;border: 3px solid #E1E8EE
+}
+#section5{
+	padding: 6rem 0;background-color: #F9FAFB
+}
+.footer-container-left a{
+	padding-left: 5%;
+}
+.footer-container-right .footer-container-main a{
+	float: right;padding-right: 5%;
+}
+.footer-container-main a{
+	display: block;color: #86939E;text-decoration: none;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+	float: left;width: 85%;height: 2rem;
+	
+}
+.blogs-look{
+	width: 10%;float: left;
+	background-image: url(../img/lookup.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	height: 2rem;
+}
+
+.top{
+	width: 3rem;height: 3rem;
+	position: fixed;right: 5rem;bottom: 5rem;
+	background-image: url(../img/top.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;z-index: 999;display: none;
+}
+.top:hover{
+	background-image: url(../img/top-active.png);cursor: pointer;
+}
+.copyright:hover{
+	cursor: pointer;
+}
